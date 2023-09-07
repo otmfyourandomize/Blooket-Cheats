@@ -1,15 +1,3 @@
-/**
-* @license StewartPrivateLicense-2.0.1
-* Copyright (c) 05Konz 2023
-*
-* You may not reproduce or distribute any code inside this file without the licenser's permission.
-* You may not copy, modify, steal, skid, or recreate any of the code inside this file.
-* You may not under any circumstance republish any code from this file as your own.
-* 
-* ALL TERMS STATED IN THE LINK BELOW APPLY ASWELL
-* https://github.com/05Konz/Blooket-Cheats/blob/main/LICENSE
-*/
-
 /* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
 
 (() => {
@@ -27,7 +15,7 @@
                 },
                 querySelector: iframe.contentDocument.querySelector.bind(document),
                 includes: function () {
-                    if (["Cheats", "Global", "Global Cheats", "Discord - oneminesraft2", "Auto Answer (Toggle)", "Auto Sell Dupes On Open", "Spam Buy Blooks", "Food Game", "Change Blook Ingame", "Get Daily Rewards", "Remove Name Limit", "Simulate Unlock", "Cheat ESP", "Gold Quest Cheats", "Cafe Cheats", "Crypto Hack Cheats", "Deceptive Dinos Cheats", "Tower Defense Cheats", "Tower Defense2 Cheats", "Factory Cheats", "Fishing Frenzy Cheats", "Flappy Blook Cheats", "Tower of Doom Cheats", "Crazy Kingdom Cheats", "Racing Cheats", "Battle Royale Cheats", "Blook Rush Cheats", "Monster Brawl Cheats", "Santa's Workshop Cheats"].includes(arguments[0]))
+                    if (["GameMode", "Global", "Global Cheats", "Discord - oneminesraft2", "Auto Answer (Toggle)", "Auto Sell Dupes On Open", "Spam Buy Blooks", "Flood Game", "Change Blook Ingame", "Get Daily Rewards", "Remove Name Limit", "Simulate Unlock", "Cheat ESP", "Gold Quest GameMode", "Cafe GameMode", "Crypto Hack GameMode", "Deceptive Dinos GameMode", "Tower Defense GameMode", "Tower Defense 2 GameMode", "Factory GameMode", "Fishing Frenzy GameMode", "Flappy Blook GameMode", "Tower of Doom GameMode", "Crazy Kingdom GameMode", "Racing GameMode", "Battle Royale GameMode", "Blook Rush GameMode", "Monster Brawl GameMode", "Santa's Workshop GameMode"].includes(arguments[0]))
                         return false;
                     return iframe.contentWindow.String.prototype.call(this, arguments);
                 },
